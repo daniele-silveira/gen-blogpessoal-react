@@ -1,7 +1,7 @@
 import { useState, useEffect, ChangeEvent, FormEvent } from 'react'
 import { useNavigate } from 'react-router-dom'
 import Usuario from '../../models/Usuario'
-import { cadastrarUsuario } from "../../services/Services"
+import { cadastrarUsuario } from "../../services/Service"
 import './Cadastro.css'
 import { RotatingLines } from 'react-loader-spinner'
 
@@ -144,7 +144,7 @@ function Cadastro() {
             </button>
             <button 
                 type='submit'
-                className='rounded text-white bg-indigo-400 
+                className='rounded-full text-white bg-indigo-400 
                            hover:bg-indigo-900 w-1/2 py-2
                            flex justify-center' 
                 >
