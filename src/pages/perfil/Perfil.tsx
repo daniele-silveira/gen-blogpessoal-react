@@ -27,7 +27,7 @@ function Perfil() {
 
         <img
           className="rounded-full w-56 mx-auto mt-[-8rem] border-8 border-white relative z-10"
-          src={usuario.foto}
+          src={usuario.foto || "https://t4.ftcdn.net/jpg/02/17/74/47/360_F_217744742_5viaZjqSNEFyjIXQHqXg22qOIFN0LUQG.jpg"}
           alt={`Foto de perfil de ${usuario.nome}`}
         />
 
